@@ -1,0 +1,61 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color: skyblue;
+}
+
+h1{
+	text-align: center;
+	color: maroon;
+	font-size:2em;
+}
+
+.contact-form{
+width:390px;
+height:380px;
+border-radius:14px;
+padding:20px;
+border:4px solid whitesmoke;
+padding:10px 20px;
+}
+
+input[type="text"]{
+width:200px;
+	color: salmon;
+	padding: 10px;
+          font-size: 18px;
+font-weight:bold;
+	text-align: center;
+	outline: none;
+	}
+
+input[type="password"]{
+width:200px;
+	color:salmon;
+	padding: 10px;
+	font-size: 18px;
+	text-align: center;
+	outline: none;
+	}
+
+
+input[type="submit"]{
+	width: 48%;
+	text-align: center;
+	padding: 14px 20px;
+	border-radius: 14px;
+	margin : 0 8px;
+	background-color: #AF2CAC;
+	color: white;
+	}
+
+
+
+input[type="submit"]:hover{
+	background-color:salmon;
+	color: maroon;
+}
+
+
